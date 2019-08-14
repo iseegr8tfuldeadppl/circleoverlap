@@ -8,10 +8,10 @@ history = []
 still = True
 while still:
     counter += 1/numpy.pi
-    if counter >= 4*numpy.pi:
+    if counter >= 2*numpy.pi:
         laps += 1
         print(laps)
-        counter -= 4*numpy.pi
+        counter -= 2*numpy.pi
     #print(str(history) + '\n')
     for i in range(len(history)):
         if counter==history[i]:
