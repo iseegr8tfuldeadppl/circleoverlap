@@ -8,7 +8,7 @@ history = []
 still = True
 while still:
     counter += 1/numpy.pi
-    if counter >= 4*3.14:
+    if counter >= 4*numpy.pi:
         laps += 1
         print(laps)
         counter -= 4*numpy.pi
